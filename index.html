@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/2fe31d4da7.js" crossorigin="anonymous"></script>
+  <title>HTML Documentation</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- nav bar -->
+  <nav id="nav-bar">
+    <header><span class="html-color">HTML</span> Documentation</header>
+    <div class="menu">
+      <li><a href="#intro" class="nav-link">Introduction</a></li>
+      <li><a href="#html_elements" class="nav-link">HTML Elements</a></li>
+      <li><a href="#html_headings" class="nav-link">HTML Headings</a></li>
+      <li><a href="#html_paragraphs" class="nav-link">HTML Paragraphs</a></li>
+      <li><a href="#html_comments" class="nav-link">HTML Comments</a></li>
+    </div>
+  </nav>
+
+  <!-- main -->
+  <main id="main-doc">
+
+
+    <!-- introduction -->
+    <section class="main-section" id="intro">
+      <header>Introduction</header>
+      <p>HTML stands for HyperText Markup Language. It is the most basic building blocks of a webpage. It gives a webpage structure and meaning, while other languages like CSS and JavaScript can be used to make the website pretty and make it function properly.</p>
+      <p>Think of it related to your body, HTML is the skeleton, CSS is the body features that defines a person such as hair type, skin color, eye color etc. Lastly, JavaScript is what makes the body move and live, such as the heart, brain, lungs etc.  </p>
+    </section>
+
+
+    <!-- HTML Elements -->
+    <section class="main-section" id="html_elements">
+      <header>HTML Elements</header>
+      <p>The start tag, some content, and the end tag make up an HTML element.</p>
+      <code>
+        <p>
+          &lt;h1&gt;Hello!&lt;/h1&gt;
+        </p>
+      </code>
+      <div class="code-div">
+        <code>
+          <p>
+            &lt;p&gt;Welcome to the Technical Documentation page!&lt;/p&gt;
+          </p>
+        </code>
+    </div>
+      <p>The h1 and p in the greater than and less than signs is a starting tag and the tag at the end defined by a backward slash is the ending tag.</p>
+      <p>Here is a list of some tags:</p>
+      <ul>
+        <li>&lt;head&gt;&lt;/head&gt;</li>
+        <li>&lt;body&gt;&lt;/body&gt;</li>
+        <li>&lt;footer&gt;&lt;/footer&gt;</li>
+        <li>&lt;div&gt;&lt;/div&gt;</li>
+        <li>&lt;span&gt;&lt;/span&gt;</li>
+      </ul>
+    </section>
+
+
+<!-- HTML Headings -->
+    <section class="main-section" id="html_headings">
+      <header>Headings</header>
+      <p>There are six heading tags h1, h2, h3, h4, h5, and h6. They are used to separate headings and subheadings on a webpage.</p>
+      <p>The h1 tag is the largest while the h6 tag is the smallest.</p>
+      <code>
+        <p>
+          &lt;h1&gt;This is an h1 tag&lt;/h1&gt;
+        </p>
+      </code>
+    </section>
+
+
+    <!-- HTML Paragraphs -->
+    <section class="main-section" id="html_paragraphs">
+      <header>Paragraphs</header>
+      <p>the p element is used to define a paragraph in a webpage. It looks like this:</p>
+      <code>
+        <p>
+          &lt;p&gt;This is a paragraph.&lt;/p&gt;
+        </p>
+      </code>
+      <p>When your writing text in a p element, an important note is that it ignores 2 or more spaces between words.</p>
+    </section>
+
+
+    <!-- HTML Comments -->
+    <section class="main-section" id="html_comments">
+      <header>Comments</header>
+      <p>A comment in HTML looks like this:</p>
+      <code>
+        <p>
+          &lt;!-- this is a comment --&gt; 
+        </p>
+      </code>
+      <p>The browser will ignore everything that is in the comment. This is useful for explaining what a certain part of code does, and is very useful when collaborating with others on a project.</p>
+    </section>
+  </main>
+</body>
+</html>
